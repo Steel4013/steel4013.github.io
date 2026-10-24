@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Noah Seiter | Computer Scientist &amp; Electronics Engineer</title>
+  <meta name="description" content="Portfolio of Noah Seiter: software, data, and RF engineering. B.A. Computer Science and B.S. Finance, Florida State University.">
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;500&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader"><span id="loadnum">0</span><span class="mono">Calibrating receiver</span></div>
+  <div id="progress"></div>
+  <div id="dot"></div><div id="ring"></div>
+
+  <header class="nav">
+    <a class="logo mono" href="#top">NS / 26</a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <span class="mono" id="clock"></span>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <canvas id="radar" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <p class="mono">Computer scientist / Electronics engineer</p>
+        <h1 class="big" aria-label="Noah Seiter">
+          <span class="line"><span class="split">Noah</span></span>
+          <span class="line"><span class="split">Seiter</span></span>
+        </h1>
+        <p class="lede">I build software, data pipelines, and RF validation tools. Dual degrees in Computer Science and Finance from FSU.</p>
+        <div class="cta">
+          <a class="btn solid mag" href="#work">Explore my work</a>
+          <button class="btn mag" id="copy">Copy email</button>
+          <a class="btn mag" href="https://www.linkedin.com/in/noahseiter/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn mag" href="https://github.com/Steel4013" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <p class="mono hint">Click the scope to send a ping</p>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div class="track" id="track"></div></div>
+
+    <section class="s" id="numbers">
+      <div class="stats rv" id="stats"></div>
+    </section>
+
+    <section class="s" id="work">
+      <h2 class="sec rv"><span class="mono">01</span>Selected work</h2>
+      <p class="mono rv">Filter by skill. Click again to clear.</p>
+      <div id="chips" class="rv"></div>
+      <p class="mono" id="status" role="status"></p>
+      <p class="org rv"><strong>68th Electronic Warfare Squadron, Eglin AFB, FL</strong><br>Computer Scientist and Electronics Engineer, Software Development and Mission Data Engineering | May 2024 to present</p>
+      <div class="list rv" id="exp"></div>
+      <h3 class="sub rv">Recognition</h3>
+      <ul class="plainlist rv">
+        <li><strong>2026 DAF STEM Award:</strong> key contributor to the squadron selection for this Department of the Air Force award (Acquisition Science and Engineering category, Q3 2026).</li>
+        <li><strong>350th Spectrum Warfare Group Unit Award:</strong> active team member during the cycle the squadron earned Outstanding Unit of the Quarter, Q3 2026.</li>
+      </ul>
+    </section>
+
+    <section class="s" id="projects">
+      <h2 class="sec rv"><span class="mono">02</span>Projects</h2>
+      <div class="list rv" id="proj"></div>
+    </section>
+
+    <section class="s" id="education">
+      <h2 class="sec rv"><span class="mono">03</span>Education</h2>
+      <p class="org rv"><strong>Florida State University, Tallahassee, FL</strong><br>B.A. Computer Science and B.S. Finance | May 2026</p>
+      <div class="list rv" id="edu"></div>
+      <h3 class="sub rv">Certifications</h3>
+      <ul class="plainlist rv">
+        <li>Google AI Professional Certification</li>
+        <li>Series 66 (Uniform Combined State Law) and Securities Industry Essentials (SIE)</li>
+        <li>Bloomberg Market Concepts (BMC)</li>
+        <li>Microsoft Office Specialist: Excel Associate</li>
+      </ul>
+      <p class="plain rv"><strong>Languages:</strong> C++, C#, TypeScript, JavaScript, Python, SQL, HTML5/CSS3, x86 and MIPS assembly.</p>
+    </section>
+
+    <section class="s" id="contact">
+      <h2 class="sec rv"><span class="mono">04</span>Let us talk</h2>
+      <a class="mega mag rv" href="mailto:noahgsbusiness@gmail.com">noahgsbusiness@gmail.com</a>
+      <div class="cta rv">
+        <a class="btn solid mag" href="https://www.linkedin.com/in/noahseiter/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn mag" href="https://github.com/Steel4013" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mono">&copy; 2026 Noah Seiter. Built by hand with HTML, CSS, and JavaScript.</footer>
+  <noscript><p style="padding:2rem">This site needs JavaScript. Contact: noahgsbusiness@gmail.com</p></noscript>
+  <script src="script.js"></script>
+</body>
+</html>
